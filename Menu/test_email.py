@@ -3,5 +3,5 @@
 import emailVerifier
 
 def test_email():
-    isReal = emailVerifier.verifyEmail("jam1250@msstate.edu")
-    assert isReal == True
+    isReal = emailVerifier.verifyEmail("blah.com")
+    assert isReal == False
