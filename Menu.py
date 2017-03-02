@@ -1,3 +1,4 @@
+import sys
 import emailVerifier
 
 def displayMenu():
@@ -12,11 +13,11 @@ def displayMenu():
 
 def choices(x):
     if x == 1:
-        print("You chose one")
+        import bmiMain
     elif x == 2:
-        print("You chose two")
+        import retirementMain
     elif x == 3:
-        print("You chose three")
+        import distanceMain
     elif x == 4:
         address = input("Enter email address: ")
         isValid = emailVerifier.verifyEmail(address)

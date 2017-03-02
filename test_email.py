@@ -4,4 +4,4 @@ import emailVerifier
 
 def test_email():
     isReal = emailVerifier.verifyEmail("blah.com")
-    assert isReal == False
+    assert isReal == True
